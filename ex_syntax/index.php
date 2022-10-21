@@ -28,6 +28,19 @@
         echo $num1
 
         // = assignment, == equality, === strict equality (like in JavaScript)
+        // $a and $b - true if both $a and $b are true.
+        // $a && $b - true if both $a and $b are true. (see operator precedence)
+        // "||" has a greater precedence than "or"
+        // $a <=> $b spaceship
+        
+        // $num1 = 5;
+        // ++$num1; will output 6 -- increment prepended
+        // $num5++; will output 5 -- increment appended
+
+        // string operator
+        // $a = "bubba"
+        // $b = "sparx"
+        // $c = $a . $b
     ?>
 
 </body>
