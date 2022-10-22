@@ -4,11 +4,12 @@ An open-source, server-side scripting language that's widely used for making dyn
 
 ## Docker: Local Development Server (LAMP)
 
-Quickly deploy a Linux/Apache/MySQL/PHP stack for local testing with Docker Compose.
+Quickly deploy a Linux/Apache/MySQL/PHP stack for local testing with Docker Compose. Make sure to set secrets in your `.env` file before performing Docker Compose.
 
 ```bash
 mkdir data
-mv /path/to/php/files data/
+mv ./path/to/php/files ./data/
+cp ./.env.example ./.env
 sudo docker compose -f docker-compose.yml up -d
 ```
 
