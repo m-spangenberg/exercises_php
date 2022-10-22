@@ -1,0 +1,3 @@
+<?php
+
+$linkedVariable = "IT VERKS!";
