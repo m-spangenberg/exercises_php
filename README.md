@@ -8,6 +8,7 @@ Quickly deploy a Linux/Apache/MySQL/PHP stack for local testing with Docker Comp
 
 ```bash
 mkdir data
+chmod -R 777 ./data
 mv ./path/to/php/files ./data/
 cp ./.env.example ./.env
 sudo docker compose -f docker-compose.yml up -d
