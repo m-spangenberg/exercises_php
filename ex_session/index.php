@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +13,15 @@
 <body>
 
     <?php
-        
+        // SESSION VARIABLE
+        $_SESSION['username'] = "randomUser360";
+
+        // CHECK IF SESSION IS SET
+        if (!isset($_SESSION['username'])) {
+            echo "Not logged in.";
+        } else {
+            echo "Logged in.";
+        }
     ?>
     
 </body>
