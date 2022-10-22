@@ -1,8 +1,8 @@
 # PHP - Hypertext Preprocessor
 
-Server side web development language
+PHP is an open-source, server-side scripting language that's widely-used for making dynamic and interactive web pages.
 
-## Docker: Local PHP Development Server
+## Docker: Local Development Server
 
 ```bash
 mkdir data
@@ -14,6 +14,5 @@ sudo docker compose -f docker-compose.yml up -d
 
 If you're looking to learn PHP, check out the resources below.
 
-https://phptherightway.com/
-https://www.php.net/manual/en/
-https://www.youtube.com/watch?v=qVU3V0A05k8&list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-
+* https://phptherightway.com/
+* https://www.php.net/manual/en/
