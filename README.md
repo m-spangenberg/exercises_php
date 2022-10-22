@@ -1,6 +1,6 @@
 # PHP - Hypertext Preprocessor
 
-PHP is an open-source, server-side scripting language that's widely-used for making dynamic and interactive web pages.
+PHP is an open-source, server-side scripting language that's widely used for making dynamic and interactive web pages.
 
 ## Docker: Local Development Server
 
@@ -8,6 +8,11 @@ PHP is an open-source, server-side scripting language that's widely-used for mak
 mkdir data
 # place your php files in data/
 sudo docker compose -f docker-compose.yml up -d
+```
+
+## Docker: PHP Database Administration
+
+```bash
 ```
 
 ## Documentation
