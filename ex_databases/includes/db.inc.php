@@ -14,5 +14,3 @@ $DBNAME = $_ENV['DBNAME'];
 $conn = mysqli_connect($DBSERV, $DBUSER, $DBPASS, $DBNAME);
 
 ?>
-
-https://www.youtube.com/watch?v=0YLJ0uO6n8I&list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-&index=37
