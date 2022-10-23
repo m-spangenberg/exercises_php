@@ -6,6 +6,8 @@ An open-source, server-side scripting language that's widely used for making dyn
 
 Quickly deploy a Linux/Apache/MySQL/PHP stack for local testing with Docker Compose. Make sure to set secrets in your `.env` file before performing Docker Compose.
 
+NOTE: `docker-compose.yml` needs some changes to enable Composer for PHP
+
 ```bash
 mkdir data
 chmod -R 777 ./data
